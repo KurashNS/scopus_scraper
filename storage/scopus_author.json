@@ -1,0 +1,55 @@
+{
+    "eid": "9-s2.0-58815351600",
+    "emailAddress": "dikarevich.ns@gmail.com",
+    "citedByCount": 1,
+    "documentCount": 1,
+    "authorId": "58815351600",
+    "orcId": null,
+    "preferredName": {
+        "first": "N. S.",
+        "last": "Afanaseva",
+        "full": "Afanaseva, N. S."
+    },
+    "nameVariants": [],
+    "latestAffiliatedInstitution": {
+        "links": [
+            {
+                "rel": "self",
+                "type": "GET",
+                "href": "https://www.scopus.com/api/institutions/60104566"
+            }
+        ],
+        "domain": null,
+        "url": null,
+        "name": "Omsk State Transport University",
+        "id": "60104566",
+        "address": {
+            "streetAddress": null,
+            "city": "Omsk",
+            "postalCode": null,
+            "country": "Russian Federation",
+            "state": null
+        }
+    },
+    "publishedSubjectAreas": [
+        {
+            "code": "COMP",
+            "name": "Computer Science"
+        },
+        {
+            "code": "ENGI",
+            "name": "Engineering"
+        },
+        {
+            "code": "PHYS",
+            "name": "Physics and Astronomy"
+        },
+        {
+            "code": "DECI",
+            "name": "Decision Sciences"
+        }
+    ],
+    "citationsCount": 1,
+    "hindex": 1,
+    "coAuthorsCount": 1
+}

@@ -1,0 +1,1305 @@
+{
+   "links":[
+
+   ],
+   "metadata":{
+      "offset":0,
+      "totalCount":29,
+      "itemCount":10,
+      "message":"",
+      "facets":{
+
+      },
+      "numberOfPages":2
+   },
+   "items":[
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85182507917"
+            }
+         ],
+         "citations":{
+            "count":1,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85182507917"
+         },
+         "references":{
+            "count":22,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85182507917"
+         },
+         "totalAuthors":2,
+         "freetoread":false,
+         "abstractText":[
+            "Researching bot attacks and creating possible ways to combat them is a new direction of research in the information security. Bot detection can become an important part of trusted interaction technology, as the relevance of such attacks is constantly increasing. Bots automate processes, simplify interaction with various services and help the user in solving various tasks. However, among the many useful bots, there are also bad bots that negatively impact users and organizations.This article discusses the advantages of detecting bots using mouse dynamics. An analysis of existing methods for identifying bots is carried out. Publicly available datasets that can be used to identify bots through mouse cursor movement patterns are reviewed."
+         ],
+         "eid":"2-s2.0-85182507917",
+         "subjectAreas":[
+            {
+               "code":17,
+               "displayName":"Computer Science"
+            },
+            {
+               "code":18,
+               "displayName":"Decision Sciences"
+            },
+            {
+               "code":22,
+               "displayName":"Engineering"
+            },
+            {
+               "code":31,
+               "displayName":"Physics and Astronomy"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/58815351600"
+                  }
+               ],
+               "authorId":"58815351600",
+               "preferredName":{
+                  "first":" N.S.",
+                  "last":"Afanaseva",
+                  "full":"Afanaseva, N.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"",
+            "volume":"",
+            "articleNumber":"",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"",
+               "pageLast":"",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1109/Dynamics60586.2023.10349640",
+         "scopusId":"85182507917",
+         "pubYear":2023,
+         "databaseDocumentIds":{
+            "SCP":"85182507917",
+            "PUI":"643236192",
+            "SCOPUS":"20240247058",
+            "CPX":"20240315399018",
+            "CAR-ID":"953589449",
+            "SGR":"85182507917"
+         },
+         "titles":[
+            "Bot Detection Using Mouse Movements"
+         ],
+         "source":{
+            "active":false,
+            "publicationYear":"2023",
+            "publisher":"Institute of Electrical and Electronics Engineers Inc.",
+            "sourceType":"p",
+            "issn":"",
+            "coden":"",
+            "eissn":"",
+            "isbn":"9798350358315",
+            "issnp":"",
+            "sourceTitleAbbreviation":"Int. Sci. Tech. Conf. Dyn. Syst., Mech. Mach., Dynamics - Proc.",
+            "title":"2023 International Scientific and Technical Conference on Dynamics of Systems, Mechanisms and Machines, Dynamics 2023 - Proceedings",
+            "id":"21101196460"
+         },
+         "title":"Bot Detection Using Mouse Movements"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85182275524"
+            }
+         ],
+         "citations":{
+            "count":0,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85182275524"
+         },
+         "references":{
+            "count":10,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85182275524"
+         },
+         "totalAuthors":6,
+         "freetoread":false,
+         "abstractText":[
+            "The paper proposes an AI model for predictive oil well diagnostics. An open 3W dataset with rare adverse events on offshore oil wells was used in present study. The paper proposes to extract features from the telemetry time series using autoencoder based on convolutional neural network. The time series were preliminarily converted into derivatives. Then derivatives were converted into spectrograms and finally were converted into average amplitude spectra. These average amplitude spectra were subsequently subjected to neural network analysis. A transfer training scheme was used to set up the autoencoder. The use of the transfer training scheme made it possible to reduce the amount of telemetry data used to set up an image classification system. After training, the neural network can extract informative features from the telemetry data. A modified Bayes classifier was used in present study with classification accuracy of 0.97."
+         ],
+         "eid":"2-s2.0-85182275524",
+         "subjectAreas":[
+            {
+               "code":17,
+               "displayName":"Computer Science"
+            },
+            {
+               "code":22,
+               "displayName":"Engineering"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56825944600"
+                  }
+               ],
+               "authorId":"56825944600",
+               "preferredName":{
+                  "first":" S.A.",
+                  "last":"Evgenievich",
+                  "full":"Evgenievich, S.A."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/58810769600"
+                  }
+               ],
+               "authorId":"58810769600",
+               "preferredName":{
+                  "first":" K.",
+                  "last":"Sergey Alexandrovich",
+                  "full":"Sergey Alexandrovich, K."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/58810612900"
+                  }
+               ],
+               "authorId":"58810612900",
+               "preferredName":{
+                  "first":" S.G.",
+                  "last":"Antonovich",
+                  "full":"Antonovich, S.G."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/58810390400"
+                  }
+               ],
+               "authorId":"58810390400",
+               "preferredName":{
+                  "first":" P.L.",
+                  "last":"Valerievich",
+                  "full":"Valerievich, P.L."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/58810537300"
+                  }
+               ],
+               "authorId":"58810537300",
+               "preferredName":{
+                  "first":" S.",
+                  "last":"Alexander Evgenievich",
+                  "full":"Alexander Evgenievich, S."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"",
+            "volume":"",
+            "articleNumber":"",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"5",
+               "pageLast":"10",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1109/ICSPIS60075.2023.10343865",
+         "scopusId":"85182275524",
+         "pubYear":2023,
+         "databaseDocumentIds":{
+            "SCP":"85182275524",
+            "PUI":"643209980",
+            "SCOPUS":"20240206830",
+            "CPX":"20240315379707",
+            "CAR-ID":"953464589",
+            "SGR":"85182275524"
+         },
+         "titles":[
+            "Recognition of pre-emergency situations during oil wells exploitation based on telemetry analysis"
+         ],
+         "source":{
+            "active":false,
+            "publicationYear":"2023",
+            "publisher":"Institute of Electrical and Electronics Engineers Inc.",
+            "sourceType":"p",
+            "issn":"",
+            "coden":"",
+            "eissn":"",
+            "isbn":"9798350329599",
+            "issnp":"",
+            "sourceTitleAbbreviation":"Int. Conf. Signal Process. Inf. Secur,, ICSPIS",
+            "title":"2023 6th International Conference on Signal Processing and Information Security, ICSPIS 2023",
+            "id":"21101196173"
+         },
+         "title":"Recognition of pre-emergency situations during oil wells exploitation based on telemetry analysis"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85147705146"
+            }
+         ],
+         "citations":{
+            "count":0,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85147705146"
+         },
+         "references":{
+            "count":10,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85147705146"
+         },
+         "totalAuthors":2,
+         "freetoread":false,
+         "abstractText":[
+            "At present, technological solutions based on artificial intelligence (AI) are being accelerated in various sectors of the economy and social relations in the world. Practice shows that fast-developing information technologies, as a rule, carry new, previously unidentified threats to information security (IS). It is quite obvious that identification of vulnerabilities, threats and risks of AI technologies requires consideration of each technology separately or in some aggregate in cases of their joint use in application solutions. Of the wide range of AI technologies, data preparation, DevOps, Machine Learning (ML) algorithms, cloud technologies, microprocessors and public services (including Marketplaces) have received the most attention. Due to the high importance and impact on most AI solutions, this paper will focus on the key AI assets, the attacks and risks that arise when implementing AI-based systems, and the issue of building secure AI."
+         ],
+         "eid":"2-s2.0-85147705146",
+         "subjectAreas":[
+            {
+               "code":17,
+               "displayName":"Computer Science"
+            },
+            {
+               "code":21,
+               "displayName":"Energy"
+            },
+            {
+               "code":22,
+               "displayName":"Engineering"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57190336068"
+                  }
+               ],
+               "authorId":"57190336068",
+               "preferredName":{
+                  "first":" S.S.",
+                  "last":"Zhumazhanova",
+                  "full":"Zhumazhanova, S.S."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"",
+            "volume":"",
+            "articleNumber":"",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"",
+               "pageLast":"",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1109/Dynamics56256.2022.10014814",
+         "scopusId":"85147705146",
+         "pubYear":2022,
+         "databaseDocumentIds":{
+            "SCP":"85147705146",
+            "PUI":"640273855",
+            "SCOPUS":"20230505949",
+            "CPX":"20230713575200",
+            "CAR-ID":"945936636",
+            "SGR":"85147705146"
+         },
+         "titles":[
+            "Potential Information Security Risks in the Implementation of AI - Based Systems"
+         ],
+         "source":{
+            "active":false,
+            "publicationYear":"2022",
+            "publisher":"Institute of Electrical and Electronics Engineers Inc.",
+            "sourceType":"p",
+            "issn":"",
+            "coden":"",
+            "eissn":"",
+            "isbn":"9781665465274",
+            "issnp":"",
+            "sourceTitleAbbreviation":"Int. Sci. Tech. Conf. \"Dyn. Syst., Mechanisms Mach.\", Dynamics - Proc.",
+            "title":"16th International Scientific and Technical Conference \"Dynamics of Systems, Mechanisms and Machines\", Dynamics 2022 - Proceedings",
+            "id":"21101134313"
+         },
+         "title":"Potential Information Security Risks in the Implementation of AI - Based Systems"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85106481187"
+            }
+         ],
+         "citations":{
+            "count":0,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85106481187"
+         },
+         "references":{
+            "count":6,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85106481187"
+         },
+         "totalAuthors":4,
+         "freetoread":false,
+         "abstractText":[
+            "A method of personality recognition by echographic parameters of the human ear is developed based on the naive Bayes classifier in the two following modes: the biometric identification (EER = 0.0053) and the biometric authentication (FRR = 0.0002 at FAR ≤ 0.0001), respectively. A device is developed for recording the biometric characteristics of the external ear, and a set of echographic data is collected from the external ears of 75 subjects. The spectral and cepstral characteristics of the signals reflected from the ear canal are used as biometric parameters. Several window functions for constructing spectra and cepstrograms are considered. It is established that more than 90% of “cepstral” features have a weak correlation, which allows us to use the naive Bayesian classifier and to obtain highly accurate results of user recognition at the same time. An advantage of the Bayesian classification is the possibility of the robust fast learning of the identification system."
+         ],
+         "eid":"2-s2.0-85106481187",
+         "subjectAreas":[
+            {
+               "code":17,
+               "displayName":"Computer Science"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56825944600"
+                  }
+               ],
+               "authorId":"56825944600",
+               "preferredName":{
+                  "first":" A.E.",
+                  "last":"Sulavko",
+                  "full":"Sulavko, A.E."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57223920034"
+                  }
+               ],
+               "authorId":"57223920034",
+               "preferredName":{
+                  "first":" I.A.",
+                  "last":"Kuprik",
+                  "full":"Kuprik, I.A."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56568558300"
+                  }
+               ],
+               "authorId":"56568558300",
+               "preferredName":{
+                  "first":" A.E.",
+                  "last":"Samotuga",
+                  "full":"Samotuga, A.E."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"3",
+            "volume":"57",
+            "articleNumber":"",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"455",
+               "pageLast":"462",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Article",
+         "doi":"10.1007/s10559-021-00370-w",
+         "scopusId":"85106481187",
+         "pubYear":2021,
+         "databaseDocumentIds":{
+            "SCP":"85106481187",
+            "PUI":"2011613955",
+            "SCOPUS":"20211734613",
+            "CPX":"20212210421791",
+            "CAR-ID":"933325593",
+            "SGR":"85106481187",
+            "TPA-ID":"20219001035551"
+         },
+         "titles":[
+            "Personal Identification Based on the Individual Sonographic Properties of the Auricle Using Cepstral Analysis and Bayes Formula"
+         ],
+         "source":{
+            "active":true,
+            "publicationYear":"2021",
+            "publisher":"Springer",
+            "sourceType":"j",
+            "issn":"10600396",
+            "coden":"",
+            "eissn":"15738337",
+            "isbn":"",
+            "issnp":"10600396",
+            "sourceTitleAbbreviation":"Cybern. Syst. Anal.",
+            "title":"Cybernetics and Systems Analysis",
+            "id":"12933"
+         },
+         "title":"Personal Identification Based on the Individual Sonographic Properties of the Auricle Using Cepstral Analysis and Bayes Formula"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85124280498"
+            }
+         ],
+         "citations":{
+            "count":0,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85124280498"
+         },
+         "references":{
+            "count":10,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85124280498"
+         },
+         "totalAuthors":3,
+         "freetoread":false,
+         "abstractText":[
+            "At the present stage of the technology development, the reliability indicators of technical systems have increased, while the person reliability began to recede over time, therefore increasing the role of the subjective factor in the emergence of industrial accidents and incidents. In order to reduce the risk of damage made by the subject, the admission to the performance of professional tasks should be multistage and periodic (continuous). Accidents can be the consequence of subjects staying in 'inadequate' psychophysiological state: Alcohol intoxication, stress, drowsiness, etc. In this work, the authors offer a neuro-Bayesian algorithm for recognizing psychophysiological states of subjects using facial thermographic images, based on the use of convolutional neural networks committees and sequential application of the Bayesian hypothesis formula. More than 97% of the recognition accuracy of seven psychophysiological states has been achieved for a 10 second monitoring period, which exceeds the known world indicators both in accuracy and recognition duration."
+         ],
+         "eid":"2-s2.0-85124280498",
+         "subjectAreas":[
+            {
+               "code":22,
+               "displayName":"Engineering"
+            },
+            {
+               "code":31,
+               "displayName":"Physics and Astronomy"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57190336068"
+                  }
+               ],
+               "authorId":"57190336068",
+               "preferredName":{
+                  "first":" S.S.",
+                  "last":"Zhumazhanova",
+                  "full":"Zhumazhanova, S.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56825944600"
+                  }
+               ],
+               "authorId":"56825944600",
+               "preferredName":{
+                  "first":" A.E.",
+                  "last":"Sulavko",
+                  "full":"Sulavko, A.E."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"",
+            "volume":"",
+            "articleNumber":"",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"380",
+               "pageLast":"383",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1109/APEIE52976.2021.9647606",
+         "scopusId":"85124280498",
+         "pubYear":2021,
+         "databaseDocumentIds":{
+            "SCP":"85124280498",
+            "PUI":"637211587",
+            "SCOPUS":"20220511506",
+            "CPX":"20220711618839",
+            "CAR-ID":"938451069",
+            "SGR":"85124280498"
+         },
+         "titles":[
+            "Neurobayesian Algorithm for Subject's Psychophysiological State Identification"
+         ],
+         "source":{
+            "active":false,
+            "publicationYear":"2021",
+            "publisher":"Institute of Electrical and Electronics Engineers Inc.",
+            "sourceType":"p",
+            "issn":"",
+            "coden":"",
+            "eissn":"",
+            "isbn":"9781665434089",
+            "issnp":"",
+            "sourceTitleAbbreviation":"Proc. Int. Sci.-Tech. Conf. Actual Probl. Electron. Instrum. Eng., APEIE",
+            "title":"Proceedings of the 2021 15th International Scientific-Technical Conference on Actual Problems of Electronic Instrument Engineering, APEIE 2021",
+            "id":"21101075468"
+         },
+         "title":"Neurobayesian Algorithm for Subject's Psychophysiological State Identification"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85098504149"
+            }
+         ],
+         "citations":{
+            "count":3,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85098504149"
+         },
+         "references":{
+            "count":27,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85098504149"
+         },
+         "totalAuthors":6,
+         "freetoread":true,
+         "abstractText":[
+            "Introduction: Electroencephalograms contain information about the individual characteristics of the brain activities and the psychophysiological state of a subject. Purpose: To evaluate the identification potential of EEG, and to develop methods for the identification of users, their psychophysiological states and activities performed on a computer by their EEGs using convolutional neural networks. Results: The information content of EEG rhythms was assessed from the viewpoint of the possibility to identify a person and his/her state. A high accuracy of determining the identity (98.5-99.99% for 10 electrodes, 96.47% for two electrodes Fp1 and Fp2) with a low transit time (2-2.5 s) was achieved. A significant decrease in accuracy was detected if the person was in different psychophysiological states during the training and testing. In earlier studies, this aspect was not given enough attention. A method is proposed for increasing the robustness of personality recognition in altered psychophysiological states. An accuracy of 82-94% was achieved in recognizing states of alcohol intoxication, drowsiness or physical fatigue, and of 77.8-98.72% in recognizing the user's activities (reading, typing or watching video). Practical relevance: The results can be applied in security and remote monitoring applications."
+         ],
+         "eid":"2-s2.0-85098504149",
+         "subjectAreas":[
+            {
+               "code":17,
+               "displayName":"Computer Science"
+            },
+            {
+               "code":22,
+               "displayName":"Engineering"
+            },
+            {
+               "code":26,
+               "displayName":"Mathematics"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56825944600"
+                  }
+               ],
+               "authorId":"56825944600",
+               "preferredName":{
+                  "first":" A.E.",
+                  "last":"Sulavko",
+                  "full":"Sulavko, A.E."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57221198164"
+                  }
+               ],
+               "authorId":"57221198164",
+               "preferredName":{
+                  "first":" A.G.",
+                  "last":"Choban",
+                  "full":"Choban, A.G."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57200720879"
+                  }
+               ],
+               "authorId":"57200720879",
+               "preferredName":{
+                  "first":" A.A.",
+                  "last":"Nigrey",
+                  "full":"Nigrey, A.A."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57203173640"
+                  }
+               ],
+               "authorId":"57203173640",
+               "preferredName":{
+                  "first":" D.P.",
+                  "last":"Inivatov",
+                  "full":"Inivatov, D.P."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"6",
+            "volume":"",
+            "articleNumber":"",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"37",
+               "pageLast":"49",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Article",
+         "doi":"10.31799/1684-8853-2020-6-37-49",
+         "scopusId":"85098504149",
+         "pubYear":2020,
+         "databaseDocumentIds":{
+            "SCP":"85098504149",
+            "PUI":"2010515750",
+            "SCOPUS":"20210009061",
+            "REAXYSCAR":"20210015155",
+            "CAR-ID":"930487074",
+            "SGR":"85098504149",
+            "TPA-ID":"20200499871914"
+         },
+         "titles":[
+            "Evaluation of EEG identification potential using statistical approach and convolutional neural networks",
+            "Оценка идентификационного потенциала электроэнцефалограмм с использованием статистического подхода и сверточных нейронных сетей"
+         ],
+         "source":{
+            "active":true,
+            "publicationYear":"2020",
+            "publisher":"Saint Petersburg State University of Aerospace Instrumentation",
+            "sourceType":"j",
+            "issn":"16848853",
+            "coden":"",
+            "eissn":"25418610",
+            "isbn":"",
+            "issnp":"16848853",
+            "sourceTitleAbbreviation":"Inf.-Upravliaiushchie Sist.",
+            "title":"Informatsionno-Upravliaiushchie Sistemy",
+            "id":"21100902603"
+         },
+         "title":"Evaluation of EEG identification potential using statistical approach and convolutional neural networks"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85086308274"
+            }
+         ],
+         "citations":{
+            "count":0,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85086308274"
+         },
+         "references":{
+            "count":4,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85086308274"
+         },
+         "totalAuthors":2,
+         "freetoread":true,
+         "abstractText":[
+            "The authors of the article analyze the impact of information security threats when conducting online surveys with an uncertain number of respondents. The article discusses threats to change responses of experts and block responses of experts. Finding the probability of making an erroneous decision using the methods of probability theory is a very difficult task. The authors propose using the Monte Carlo method as a solution. A software module that implements this method has been developed. We obtained the dependence of the probability of making an erroneous decision on the probability of changing the answers of experts, the probability of blocking the answers of experts and the number of respondents. The authors showed that there are critical values for the probability of changes in the responses of experts. These values determine the boundaries of ranges with different characteristics of the dependence of the probability of making an erroneous decision. The authors proposed two methods for finding one of the critical values. In conclusion, the authors formulated conditions that reduce the probability of making an erroneous decision."
+         ],
+         "eid":"2-s2.0-85086308274",
+         "subjectAreas":[
+            {
+               "code":31,
+               "displayName":"Physics and Astronomy"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57217113269"
+                  }
+               ],
+               "authorId":"57217113269",
+               "preferredName":{
+                  "first":" B.I.",
+                  "last":"Efimov",
+                  "full":"Efimov, B.I."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"1",
+            "volume":"1546",
+            "articleNumber":"012079",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"",
+               "pageLast":"",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1088/1742-6596/1546/1/012079",
+         "scopusId":"85086308274",
+         "pubYear":2020,
+         "databaseDocumentIds":{
+            "SCP":"85086308274",
+            "PUI":"632043018",
+            "SCOPUS":"20202065904",
+            "REAXYSCAR":"20201266437",
+            "CPX":"20202408833105",
+            "CAR-ID":"926266815",
+            "SGR":"85086308274"
+         },
+         "titles":[
+            "Analysis of the impact of threats to change and block responses of experts in online survey systems"
+         ],
+         "source":{
+            "active":true,
+            "publicationYear":"2020",
+            "publisher":"Institute of Physics Publishing helen.craven@iop.org",
+            "sourceType":"p",
+            "issn":"17426588",
+            "coden":"",
+            "eissn":"17426596",
+            "isbn":"",
+            "issnp":"17426588",
+            "sourceTitleAbbreviation":"J. Phys. Conf. Ser.",
+            "title":"Journal of Physics: Conference Series",
+            "id":"130053"
+         },
+         "title":"Analysis of the impact of threats to change and block responses of experts in online survey systems"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85086307572"
+            }
+         ],
+         "citations":{
+            "count":0,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85086307572"
+         },
+         "references":{
+            "count":6,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85086307572"
+         },
+         "totalAuthors":5,
+         "freetoread":true,
+         "abstractText":[
+            "Statistic tests created in the 20th century may be mapped with some equivalent artificial neurons. As a result, a network of dozens of artificial neurons that combines dozens of known statistic tests may be used for the validation of the normality hypothesis. The quality of solutions made by a neural network depends on a number of used neurons (tests). This tendency gives rise to the task of creating new statistic tests (neurons) that first and foremost require low correlation of their decision with known tests. The paper presents a forecast of attainable confidential probabilities for the validation of the normality hypothesis for a small sample of 21 tests in a network consisting of 21 artificial neurons, where each one is mapped with one traditional statistic test. When new tests are used (that should be created in the 21st century), the correlation of data is expected to lower by far, which should allow an approximately 10-fold decrease in a number of error probabilities."
+         ],
+         "eid":"2-s2.0-85086307572",
+         "subjectAreas":[
+            {
+               "code":31,
+               "displayName":"Physics and Astronomy"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57189212610"
+                  }
+               ],
+               "authorId":"57189212610",
+               "preferredName":{
+                  "first":" A.I.",
+                  "last":"Ivanov",
+                  "full":"Ivanov, A.I."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57211265294"
+                  }
+               ],
+               "authorId":"57211265294",
+               "preferredName":{
+                  "first":" A.G.",
+                  "last":"Bannykh",
+                  "full":"Bannykh, A.G."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56825944600"
+                  }
+               ],
+               "authorId":"56825944600",
+               "preferredName":{
+                  "first":" A.E.",
+                  "last":"Sulavko",
+                  "full":"Sulavko, A.E."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57203173640"
+                  }
+               ],
+               "authorId":"57203173640",
+               "preferredName":{
+                  "first":" D.P.",
+                  "last":"Inivatov",
+                  "full":"Inivatov, D.P."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"1",
+            "volume":"1546",
+            "articleNumber":"012080",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"",
+               "pageLast":"",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1088/1742-6596/1546/1/012080",
+         "scopusId":"85086307572",
+         "pubYear":2020,
+         "databaseDocumentIds":{
+            "SCP":"85086307572",
+            "PUI":"632043022",
+            "SCOPUS":"20202065905",
+            "REAXYSCAR":"20201266438",
+            "CPX":"20202408833106",
+            "CAR-ID":"926266818",
+            "SGR":"85086307572"
+         },
+         "titles":[
+            "Possibility of Decrease in a Level of Data Correlation during Processing Small Samples Using Neural Networks by Generating New Statistic Tests"
+         ],
+         "source":{
+            "active":true,
+            "publicationYear":"2020",
+            "publisher":"Institute of Physics Publishing helen.craven@iop.org",
+            "sourceType":"p",
+            "issn":"17426588",
+            "coden":"",
+            "eissn":"17426596",
+            "isbn":"",
+            "issnp":"17426588",
+            "sourceTitleAbbreviation":"J. Phys. Conf. Ser.",
+            "title":"Journal of Physics: Conference Series",
+            "id":"130053"
+         },
+         "title":"Possibility of Decrease in a Level of Data Correlation during Processing Small Samples Using Neural Networks by Generating New Statistic Tests"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85073243013"
+            }
+         ],
+         "citations":{
+            "count":1,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85073243013"
+         },
+         "references":{
+            "count":8,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85073243013"
+         },
+         "totalAuthors":3,
+         "freetoread":true,
+         "abstractText":[
+            "Rationale and objectives. The paper aims at the decrease of requirements to a test sample size while estimating the entropy of long codes with dependent digits. Materials and methods. Codes in the Hamming space instead of typical codes are used that is equal to an exponential decrease of a number of controlled code states. Results. Usage of beta distributions instead of normal ones for describing the Hamming distances allows overcoming the restrictions of the previously applied GOST R 52633.3 algorithm. A nomogram generated for fast and reliable computations appeared linear in logarithmic coordinates that makes its usage simple and convenient. Conclusions. The calculation of the entropy of long codes by Shannon method is not possible in practice as it is a task with exponential computational complexity. The usage of the Hamming codes instead of normal ones results in a decrease of the computational complexity to a linear one. The application of beta distributions for describing the Hamming statistics allows overcoming normality test restrictions for initial data. The proposed fast method of computing the entropy is becoming common."
+         ],
+         "eid":"2-s2.0-85073243013",
+         "subjectAreas":[
+            {
+               "code":31,
+               "displayName":"Physics and Astronomy"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57189212610"
+                  }
+               ],
+               "authorId":"57189212610",
+               "preferredName":{
+                  "first":" A.I.",
+                  "last":"Ivanov",
+                  "full":"Ivanov, A.I."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/57211265294"
+                  }
+               ],
+               "authorId":"57211265294",
+               "preferredName":{
+                  "first":" A.G.",
+                  "last":"Bannykh",
+                  "full":"Bannykh, A.G."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"2",
+            "volume":"1260",
+            "articleNumber":"022003",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"",
+               "pageLast":"",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1088/1742-6596/1260/2/022003",
+         "scopusId":"85073243013",
+         "pubYear":2019,
+         "databaseDocumentIds":{
+            "SCP":"85073243013",
+            "PUI":"629597118",
+            "SCOPUS":"20192955373",
+            "REAXYSCAR":"20191957573",
+            "CPX":"20194207549599",
+            "CAR-ID":"920919176",
+            "SGR":"85073243013"
+         },
+         "titles":[
+            "A simple nomogram for fast computing the code entropy for 256-bit codes that artificial neural networks output"
+         ],
+         "source":{
+            "active":true,
+            "publicationYear":"2019",
+            "publisher":"Institute of Physics Publishing helen.craven@iop.org",
+            "sourceType":"p",
+            "issn":"17426588",
+            "coden":"",
+            "eissn":"17426596",
+            "isbn":"",
+            "issnp":"17426588",
+            "sourceTitleAbbreviation":"J. Phys. Conf. Ser.",
+            "title":"Journal of Physics: Conference Series",
+            "id":"130053"
+         },
+         "title":"A simple nomogram for fast computing the code entropy for 256-bit codes that artificial neural networks output"
+      },
+      {
+         "links":[
+            {
+               "rel":"self",
+               "type":"GET",
+               "href":"https://www.scopus.com/api/documents/2-s2.0-85051352514"
+            }
+         ],
+         "citations":{
+            "count":6,
+            "link":"https://www.scopus.com/api/documents/citations/count?eid=2-s2.0-85051352514"
+         },
+         "references":{
+            "count":17,
+            "link":"https://www.scopus.com/api/documents/reference/count?eid=2-s2.0-85051352514"
+         },
+         "totalAuthors":2,
+         "freetoread":true,
+         "abstractText":[
+            "This paper suggests a model of a hybrid wide neural network based on perceptrons, quadratic form networks and multidimensional difference and hyperbolic Bayes functionals. It is experimentally proved that this model is highly efficient when used for biometric authentication and generation of a digital signature activated biometrically. The paper suggests methods of generating keys of a digital signature and personal authentication by handwritten patterns, a key stroke manner and facial parameters. Comparatively high rates of reliability for taken solutions were achieved that were estimated taking into account the variability of dynamic biometric patterns over time."
+         ],
+         "eid":"2-s2.0-85051352514",
+         "subjectAreas":[
+            {
+               "code":31,
+               "displayName":"Physics and Astronomy"
+            }
+         ],
+         "authors":[
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/55027255900"
+                  }
+               ],
+               "authorId":"55027255900",
+               "preferredName":{
+                  "first":" P.S.",
+                  "last":"Lozhnikov",
+                  "full":"Lozhnikov, P.S."
+               }
+            },
+            {
+               "links":[
+                  {
+                     "rel":"self",
+                     "type":"GET",
+                     "href":"https://www.scopus.com/api/authors/56825944600"
+                  }
+               ],
+               "authorId":"56825944600",
+               "preferredName":{
+                  "first":" A.E.",
+                  "last":"Sulavko",
+                  "full":"Sulavko, A.E."
+               }
+            }
+         ],
+         "statusType":"core",
+         "abstractAvailable":true,
+         "publicationStage":"final",
+         "sourceRelationship":{
+            "issue":"1",
+            "volume":"1050",
+            "articleNumber":"012047",
+            "pageCount":"",
+            "pages":{
+               "pageFirst":"",
+               "pageLast":"",
+               "pageInfo":""
+            }
+         },
+         "documentType":"Conference Paper",
+         "doi":"10.1088/1742-6596/1050/1/012047",
+         "scopusId":"85051352514",
+         "pubYear":2018,
+         "databaseDocumentIds":{
+            "SCP":"85051352514",
+            "PUI":"623448956",
+            "SCOPUS":"20182427173",
+            "REAXYSCAR":"20181411402",
+            "CPX":"20183305690438",
+            "CAR-ID":"912187035",
+            "SGR":"85051352514"
+         },
+         "titles":[
+            "Generation of a biometrically activated digital signature based on hybrid neural network algorithms"
+         ],
+         "source":{
+            "active":true,
+            "publicationYear":"2018",
+            "publisher":"Institute of Physics Publishing helen.craven@iop.org",
+            "sourceType":"p",
+            "issn":"17426588",
+            "coden":"",
+            "eissn":"17426596",
+            "isbn":"",
+            "issnp":"17426588",
+            "sourceTitleAbbreviation":"J. Phys. Conf. Ser.",
+            "title":"Journal of Physics: Conference Series",
+            "id":"130053"
+         },
+         "title":"Generation of a biometrically activated digital signature based on hybrid neural network algorithms"
+      }
+   ]
+}
