@@ -19,9 +19,11 @@ class ScopusClientLogger(Logger):
 
     def __init__(self, name: str = 'ScopusClient', level: Union[int, str] = INFO):
         self._level = level
+
+        logs_dir = ScopusClientLogger._current_file.parent / 'logs'
+        os.makedirs(logs_dir, exist_ok=True)
         self._logs_filename = os.path.join(
-            ScopusClientLogger._current_file.parent,
-            'logs',
+            logs_dir,
             f'scopus_client_{datetime.now().strftime(format="%Y-%m-%d_%H-%M-%S")}.log'
         )
 

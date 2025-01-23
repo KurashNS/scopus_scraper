@@ -87,9 +87,11 @@ class ScopusClient:
                 'sec-fetch-site': 'same-origin',
                 'user-agent': self._session.headers.get('user-agent', ''),
                 'x-requested-with': 'XMLHttpRequest',
-            }
+            }           
+            r = self._session.get(url=constants.AUTH_CLAIM_URI, headers=auth_claim_headers, proxies=self._session.proxies)
+            print(r.text)
+            r.raise_for_status()
             self._session.get(url=constants.SCOPUS_URL, proxies=self._session.proxies).raise_for_status()
-            self._session.get(url=constants.AUTH_CLAIM_URI, headers=auth_claim_headers, proxies=self._session.proxies).raise_for_status()
         except HTTPError as e:
             self._logger.error(f'Unable to authorize to SCOPUS: {type(e)} - {str(e)}')
             self._reset_client()
@@ -103,6 +105,8 @@ class ScopusClient:
         try:
             response = self._session.get(url=f'{constants.BASE_AUTHOR_PROFILE_URL}{author_id}', proxies=self._session.proxies)
             if response.status_code in [400, 403, 404]:
+                print(response.status_code)
+                print(response.content)
                 return {}
             else:
                 response.raise_for_status()

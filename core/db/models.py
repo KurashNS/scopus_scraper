@@ -6,7 +6,7 @@ Base = declarative_base()
 
 
 class Document(Base):
-    __tablename__ = 'document'
+    __tablename__ = 'documents'
 
     scopus_id = Column(String, primary_key=True, index=True)
     eid = Column(String, nullable=False, unique=True, index=True)
@@ -48,44 +48,44 @@ class Document(Base):
 
 
 class DocumentTitle(Base):
-    __tablename__ = 'document_titles'
+    __tablename__ = 'documents_titles'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    document_id = Column(String, ForeignKey('document.scopus_id'), nullable=False, index=True)
+    document_id = Column(String, ForeignKey('documents.scopus_id'), nullable=False, index=True)
     document = relationship('Document', back_populates='titles')
 
     title = Column(String, nullable=False, unique=True)
 
     __table_args__ = (
-        UniqueConstraint('document_id', 'title', name='_document_titles_uc'),
+        UniqueConstraint('document_id', 'title', name='_document_title_uc'),
     )
 
 
 class DocumentAbstractText(Base):
-    __tablename__ = 'document_abstract_texts'
+    __tablename__ = 'documents_abstract_texts'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    document_id = Column(String, ForeignKey('document.scopus_id'), nullable=False, index=True)
+    document_id = Column(String, ForeignKey('documents.scopus_id'), nullable=False, index=True)
     document = relationship('Document', back_populates='abstract_texts')
 
     text = Column(Text, nullable=False, unique=True)
 
     __table_args__ = (
-        UniqueConstraint('document_id', 'text', name='_document_abstract_texts_uc'),
+        UniqueConstraint('document_id', 'text', name='_document_abstract_text_uc'),
     )
 
 
 class DocumentSubjectArea(Base):
-    __tablename__ = 'document_subject_areas'
+    __tablename__ = 'documents_subject_areas'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    document_id = Column(String, ForeignKey('document.scopus_id'), nullable=False, index=True)
+    document_id = Column(String, ForeignKey('documents.scopus_id'), nullable=False, index=True)
     document = relationship('Document', back_populates='subject_areas')
 
-    subject_area_code = Column(Integer, ForeignKey('subject_area.code'), nullable=False, index=True)
+    subject_area_code = Column(Integer, ForeignKey('subject_areas.code'), nullable=False, index=True)
     subject_area = relationship('SubjectArea', back_populates='document', cascade='all')
 
     __table_args__ = (
@@ -94,11 +94,11 @@ class DocumentSubjectArea(Base):
 
 
 class DocumentSourceRelationship(Base):
-    __tablename__ = 'document_source_relationship'
+    __tablename__ = 'documents_sources_relationships'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    document_id = Column(String, ForeignKey('document.scopus_id'), nullable=False, unique=True, index=True)
+    document_id = Column(String, ForeignKey('documents.scopus_id'), nullable=False, unique=True, index=True)
     document = relationship('Document', back_populates='source_relationship')
 
     issue = Column(String, nullable=True)
@@ -112,19 +112,19 @@ class DocumentSourceRelationship(Base):
 
 
 class DocumentSource(Base):
-    __tablename__ = 'document_source'
+    __tablename__ = 'documents_sources'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    document_id = Column(String, ForeignKey('document.scopus_id'), unique=True, nullable=False, index=True)
+    document_id = Column(String, ForeignKey('documents.scopus_id'), unique=True, nullable=False, index=True)
     document = relationship('Document', back_populates='source')
 
-    source_id = Column(String, ForeignKey('source.id'), nullable=False, index=True)
+    source_id = Column(String, ForeignKey('sources.id'), nullable=False, index=True)
     source = relationship('Source', back_populates='documents')
 
 
 class Source(Base):
-    __tablename__ = 'source'
+    __tablename__ = 'sources'
 
     id = Column(String, primary_key=True, index=True)
 
@@ -146,23 +146,23 @@ class Source(Base):
 
 
 class DocumentAuthorship(Base):
-    __tablename__ = 'document_authorship'
+    __tablename__ = 'documents_authorship'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    document_id = Column(String, ForeignKey('document.scopus_id'), nullable=False, index=True)
+    document_id = Column(String, ForeignKey('documents.scopus_id'), nullable=False, index=True)
     document = relationship('Document', back_populates='authors', cascade='all')
 
-    author_id = Column(String, ForeignKey('author.id'), nullable=False, index=True)
+    author_id = Column(String, ForeignKey('authors.id'), nullable=False, index=True)
     author = relationship('Author', back_populates='documents', cascade='all')
 
     __table_args__ = (
-        UniqueConstraint('document_id', 'author_id', name='_document_authorship_uc'),
+        UniqueConstraint('document_id', 'author_id', name='_document_author_uc'),
     )
 
 
 class Author(Base):
-    __tablename__ = 'author'
+    __tablename__ = 'authors'
 
     id = Column(String, primary_key=True, index=True)
     eid = Column(String, nullable=False, index=True)
@@ -175,7 +175,7 @@ class Author(Base):
 
     email_address = Column(String, nullable=True)
 
-    affiliated_institution_id = Column(String, ForeignKey('author_affiliated_institutions.id'), nullable=False, index=True)
+    affiliated_institution_id = Column(String, ForeignKey('authors_affiliated_institutions.id'), nullable=False, index=True)
     affiliated_institution = relationship('AuthorAffiliatedInstitution',  back_populates='authors', cascade='all')
 
     document_count = Column(Integer, nullable=True, index=True)
@@ -193,38 +193,38 @@ class Author(Base):
 
 
 class AuthorNameVariant(Base):
-    __tablename__ = 'author_name_variants'
+    __tablename__ = 'authors_name_variants'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    author_id = Column(String, ForeignKey('author.id'), nullable=False, index=True)
+    author_id = Column(String, ForeignKey('authors.id'), nullable=False, index=True)
     author = relationship('Author', back_populates='name_variants', cascade='all')
 
     name = Column(String, nullable=False)
 
     __table_args__ = (
-        UniqueConstraint('author_id', 'name', name='_author_name_variants_uc'),
+        UniqueConstraint('author_id', 'name', name='_author_name_uc'),
     )
 
 
 class AuthorSubjectArea(Base):
-    __tablename__ = 'author_subject_areas'
+    __tablename__ = 'authors_subject_areas'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 
-    author_id = Column(String, ForeignKey('author.id'), nullable=False, index=True)
+    author_id = Column(String, ForeignKey('authors.id'), nullable=False, index=True)
     author = relationship('Author', back_populates='subject_areas', cascade='all')
 
-    subject_area_codename = Column(String, ForeignKey('subject_area.codename'), nullable=False, index=True)
+    subject_area_codename = Column(String, ForeignKey('subject_areas.codename'), nullable=False, index=True)
     subject_area = relationship('SubjectArea', back_populates='author', cascade='all')
 
     __table_args__ = (
-        UniqueConstraint('author_id', 'subject_area_codename', name='_author_subject_areas_uc'),
+        UniqueConstraint('author_id', 'subject_area_codename', name='_author_subject_area_uc'),
     )
 
 
 class AuthorAffiliatedInstitution(Base):
-    __tablename__ = 'author_affiliated_institutions'
+    __tablename__ = 'authors_affiliated_institutions'
 
     id = Column(String, primary_key=True, index=True)
     name = Column(String, nullable=False, index=True)
@@ -242,7 +242,7 @@ class AuthorAffiliatedInstitution(Base):
 
 
 class SubjectArea(Base):
-    __tablename__ = 'subject_area'
+    __tablename__ = 'subject_areas'
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
 

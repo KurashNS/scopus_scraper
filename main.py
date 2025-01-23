@@ -22,8 +22,12 @@ PUB_YEAR = [
 ]
 
 _proxies = {
-    'http': 'http://yfy5n4:s4SsUv@185.82.126.71:13502',
-    'https': 'http://yfy5n4:s4SsUv@185.82.126.71:13502'
+    # 'http': 'http://yfy5n4:s4SsUv@185.82.126.71:13502',
+    # 'https': 'http://yfy5n4:s4SsUv@185.82.126.71:13502'
+    # 'http': 'http://proxy.omgtu:8080',
+    # 'https': 'http://proxy.omgtu:8080'
+    'http': 'http://yv1dUa:GeV4UKYTkej4@185.236.234.28:12380',
+    'https': 'http://yv1dUa:GeV4UKYTkej4@185.236.234.28:12380'
 }
 
 _logger = ScopusClientLogger()
@@ -128,10 +132,11 @@ def _insert_document(author_id: str, document_desc: Dict) -> None:
 def main(authors_id: List[str]):
     for author_id in authors_id:
         documents = _get_documents(author_id=author_id)
-        authors = _get_documents_authors(author_id=author_id, documents=documents)
+        # authors = _get_documents_authors(author_id=author_id, documents=documents)
+        # print(authors)
 
-        for author in authors:
-            _insert_author(author_desc=author)
+        # for author in authors:
+        #     _insert_author(author_desc=author)
 
         for document in documents:
             _insert_document(author_id=author_id, document_desc=document)

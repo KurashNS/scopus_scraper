@@ -11,7 +11,7 @@ from utils.log import ScopusClientLogger
 
 
 class DatabaseConnector:
-    DATABASE_URL = 'postgresql+psycopg2://postgres:123@localhost:5432/qwerty'
+    DATABASE_URL = 'postgresql+psycopg2://postgres:123@localhost:5432/science?options=-csearch_path=scopus'
 
     _instance = None
 
@@ -132,3 +132,8 @@ class DatabaseConnector:
             index_elements=index_elements, set_=update_values
         )
         self.session.execute(insert_subject_area_stmt)
+
+
+if __name__ == '__main__':
+    with DatabaseConnector() as conn:
+        conn.record_exists(model=models.Author, column_name='id', value='123')
