@@ -9,6 +9,7 @@ class Document(Base):
     __tablename__ = 'documents'
 
     scopus_id = Column(String, primary_key=True, index=True)
+    main_title = Column(String, nullable=False)
     eid = Column(String, nullable=False, unique=True, index=True)
 
     titles = relationship('DocumentTitle', back_populates='document', cascade='all, delete-orphan')
@@ -31,7 +32,7 @@ class Document(Base):
 
     doi = Column(String, nullable=True, index=True)
     pui = Column(String, nullable=True, index=True)
-    scopus = Column(String, nullable=True, index=True)
+    scopus_id_ = Column(String, nullable=True, index=True)
     src_occ_id = Column(String, nullable=True, index=True)
     reaxyscar = Column(String, nullable=True, index=True)
     cpx = Column(String, nullable=True, index=True)
@@ -132,7 +133,6 @@ class Source(Base):
     title_abbreviation = Column(String, nullable=True)
 
     pub_year = Column(Integer, nullable=True, index=True)
-    source_type = Column(String, nullable=True, index=True)
     publisher = Column(String, nullable=True, index=True)
     is_active = Column(Boolean, nullable=True, index=True)
 

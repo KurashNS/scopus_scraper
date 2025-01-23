@@ -61,7 +61,6 @@ class Source(_BaseModel):
     title_abbreviation: Optional[str] = Field(default=None, validation_alias='sourceTitleAbbreviation')
 
     pub_year: Optional[PositiveInt] = Field(default=None, validation_alias='publicationYear')
-    source_type: Optional[str] = Field(default=None, validation_alias='sourceType')
     publisher: Optional[str] = None
     is_active: Optional[bool] = Field(default=None, validation_alias='active')
 
@@ -74,6 +73,7 @@ class Source(_BaseModel):
 
 class Document(_BaseModel):
     scopus_id: str = Field(validation_alias='scopusId')
+    main_title: str = Field(validate_default='title')
     eid: str
 
     titles: List[str]
@@ -96,7 +96,7 @@ class Document(_BaseModel):
 
     doi: Optional[str] = None
     pui: Optional[str] = Field(default=None, validation_alias='PUI')
-    scopus: Optional[str] = Field(default=None, validation_alias='SCOPUS')
+    scopus_id_: Optional[str] = Field(default=None, validation_alias='SCOPUS')
     src_occ_id: Optional[str] = Field(default=None, validation_alias='SRC-OCC-ID')
     reaxyscar: Optional[str] = Field(default=None, validation_alias='REAXYSCAR')
     cpx: Optional[str] = Field(default=None, validation_alias='CPX')
